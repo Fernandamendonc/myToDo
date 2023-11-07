@@ -39,9 +39,8 @@ export function ToDo({ open, setOpen }:modalProps) {
 
   return (
     <div className={styles.container}>
-
       <ModalCriarProjeto setToDos={setToDos} setOpen={setOpen} open={open}/>
-      
+       
       <div className={styles.contentTitle}>
         <span className={styles.totalTitulo}>
           Total

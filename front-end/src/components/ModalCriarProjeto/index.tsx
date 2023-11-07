@@ -69,7 +69,12 @@ export function ModalCriarProjeto({ setToDos, setOpen,open }:ModalCriarProjetoPr
               </div>
             </section>
             <div className={styles.buttonSubmitForm}>
-              <button className={styles.buttonSubmitFormCancel} onClick={() => setOpen(false)}>Cancelar</button>
+              <button 
+                className={styles.buttonSubmitFormCancel} 
+                onClick={() => setOpen(false)}
+              >
+                Cancelar
+              </button>
               <button className={styles.buttonSubmitFormSave}>Salvar tarefa</button>
             </div>
           </form>

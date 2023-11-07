@@ -50,12 +50,14 @@
 
 .containerOpenModal{
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-95%);
 
-  z-index: 2;
+  max-width: 3rem;
+  width: 100%;
+
+  z-index: 1;
 }
 
 .buttonAddTask {

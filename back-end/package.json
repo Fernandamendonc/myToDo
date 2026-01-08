@@ -1,0 +1,20 @@
+{
+  "name": "my_todo_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fastify": "^5.2.1",
+    "firebase": "^12.7.0",
+    "firebase-admin": "^13.6.0"
+  }
+}

@@ -1,0 +1,54 @@
+# My To Do List
+
+Projeto de **To Do List** desenvolvido com foco em **aprendizado**, **boas práticas** e **portfólio**, integrando **Front-end** e **Back-end** com persistência de dados no **Firebase**.
+
+---
+
+## Objetivo do projeto
+
+Criar uma aplicação simples de gerenciamento de tarefas, permitindo ao usuário:
+
+- Criar tarefas  
+- Visualizar tarefas  
+- Marcar tarefas como concluídas  
+- Remover tarefas  
+
+Além das funcionalidades, o projeto tem como foco:
+
+- Separação entre front-end e back-end  
+- Criação de uma API própria  
+- Boas práticas de organização de código  
+- Evolução técnica em Node.js, Firebase e UX  
+
+---
+
+## Tecnologias utilizadas
+
+### Front-end
+- React  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+
+### Back-end
+- Node.js  
+- Express  
+- Firebase Admin SDK  
+
+### Banco de dados
+- Firebase Firestore (NoSQL)
+
+### Outros
+- Git & GitHub  
+- Fetch API  
+
+---
+
+## Arquitetura do projeto
+
+```text
+Front-end (React)
+      ↓ fetch
+API Node.js (Express)
+      ↓
+Firebase Firestore
